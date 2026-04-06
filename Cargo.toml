@@ -1,0 +1,9 @@
+[package]
+name = "TishVPN"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version = "1.51.0", features = ["full"]}
+#tokio = "1.51.0"
+tokio-tun = "0.15.2"
